@@ -13,11 +13,43 @@
             print "texto";
             */
 
-            //
-        ?>
+            //Estrutua de dados - ENTRADA  
+            //Dados -> Informações -> Conhecimentos -> Inteligêcia
 
-        <!-- ?= subistitui o echo(usado somente quando somente eu quero ter a saiada unica) -->
-        <p> <?= "ola"?></p>
+            //$nome_da_variavel = valor_da_variavel
+            $nome = "André";//String
+            $idade = 29;//Integer ou int
+            $altura =1.78;//Float
+            $isAlive = true;//Boolean
+            
+            //lista(array indexado)
+            $hobbies = ["Caminha","filmes","Video Games"];
+            //lista(Array associativo)
+            $pessoa=[
+                "nome"=>"Andre",
+                "idade"=>29,
+                "altura"=>1.78,
+                "vivo"=>true,
+                "hobbies"=>["Caminha","filmes","Video Games"]
+            ];
+            
+            echo "<p>Nome : $nome <br>";
+            echo "Idade : $idade <br>";
+            echo "Altura : $altura <br>";
+            echo "Esta vivo : $isAlive <br>";
+            echo "Hobbies :".$hobbies[0] . "<br></p>";
+
+            echo "<p> Array Associativo :";
+            echo " ".$pessoa['nome'] .",";
+            echo " ".$pessoa['idade'] .",";
+            echo " ".$pessoa['altura'] .",";
+            echo " ".$pessoa['vivo'] .",";
+            echo " ".$pessoa['hobbies'][0] ."</p>";
+
+
+
+
+        ?>
 
       
 
