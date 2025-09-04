@@ -46,7 +46,22 @@
             echo " ".$pessoa['vivo'] .",";
             echo " ".$pessoa['hobbies'][0] ."</p>";
 
+            //Exercicio
+            $nome = "Hermione Granger";
+            $idade = 17;
+            $especie = "humano";
+            $altura = 1.65;
 
+            echo "<p>Bruxo : $nome <br>";
+            echo "Idade : $idade <br>";
+            echo "Especie : ".$especie . "<br>";
+            if($isAlive){
+                echo "Vivo : sim <br>";
+            }else{
+                echo "Vivo : não <br>";
+            }
+            echo "Altura : $altura <br></p>";
+            
 
 
         ?>
