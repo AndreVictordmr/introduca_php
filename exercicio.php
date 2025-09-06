@@ -12,7 +12,10 @@
             $idade = 17;
             $especie = "humano";
             $altura = 1.65;
+            $isAlive = true;
             $hobbies = ["ler","estudar",""]
+
+            $alunos = ['nome' => "Hermione",'idade'=>17,'altura'=>1.65,'vivo'=>true,'hobbies'=>["ler","estudar",""]];
 
             echo "<p>Bruxo : $nome <br>";
             echo "Idade : $idade <br>";
