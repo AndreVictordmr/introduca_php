@@ -20,11 +20,12 @@
                 'nome' => "Hermione",
                 'idade'=>17,'altura'=>1.65,'especie'=>"Humano",
                 'vivo'=>true,
-                'hobbies'=>["ler","estudar","descrubrie coisas","sair com amigos","caminhara"]];
+                'hobbies'=>["ler","estudar","descrubri coisas","sair com amigos","caminhar"]
+            ];
 
 
             //Saida de dados mais arrumada
-            
+            echo "<h1>Cadastro alunos</h1>";
             echo "<p>Bruxo : ". $aluno['nome'] ." <br>";
             echo "Idade :". $aluno['idade'] ."<br>";
             echo "Especie : ". $aluno['especie'] ."<br>";
