@@ -15,6 +15,18 @@
             $altura = 1.65;
             $isAlive = true;
             $hobbies = ["ler","estudar","descrubrie coisas","sair com amigos","caminhara"];
+
+            echo "<p>Bruxo : $nome <br>";
+            echo "Idade : $idade <br>";
+            echo "Especie : $especie <br>";
+            if($isAlive){
+                echo "Vivo : sim <br>";
+            }else{
+                echo "Vivo : não <br>";
+            }
+            echo "Altura : $altura <br></p>";
+            echo "Hobbies :" .implode(",",$hobbies). "</p>";
+            
             */
             $aluno = [
                 'nome' => "Hermione",
