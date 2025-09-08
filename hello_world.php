@@ -61,8 +61,9 @@
                 echo "Vivo : não <br>";
             }
             echo "Altura : $altura <br></p>";
-
+            echo "Hobbies :" .implode(",",$hobbies). "</p>";
             
+
             
 
 
