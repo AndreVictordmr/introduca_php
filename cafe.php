@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
         <title>nivel cafe</title>
     </head>
     <body>
@@ -26,22 +27,22 @@
         ];  
         
         ?>
-        <article>
-            <h1><?= $post['titulo']?></h1>
-            <h2><?= $post['subtitulo']?></h2>
+        <article id="conteudo">
+            <h1 class="titulo"><?= $post['titulo']?></h1>
+            <h2 class="titulo"><?= $post['subtitulo']?></h2>
             <img src="<?= $post['image'] ?>" alt="Imagem principal do post">
 
-            <p><?= $post['texto']?></p>
+            <p id="texto"><?= $post['texto']?></p>
 
             <section>
-                <h3>Sobre o Autor</h3>
-                <p><strong>Nome: </strong><?= $post['autor']['nome']?></p>
-                <p><strong>Idade: </strong><?= $post['autor']['idade']?></p>
-                <p><strong>Espécie: </strong><?= $post['autor']['especie']?></p>
-                <p><strong>Esta vivo: </strong><?= ($post['autor']['vivo'] ? "Sim":"Não")?></p>
-                <p><strong>Altura: </strong><?= $post['autor']['altura']?></p>
+                <h3 class="tituloS">Sobre o Autor</h3>
+                <p><strong>Nome:  </strong><?= $post['autor']['nome']?></p>
+                <p><strong>Idade:  </strong><?= $post['autor']['idade']?></p>
+                <p><strong>Espécie:  </strong><?= $post['autor']['especie']?></p>
+                <p><strong>Esta vivo:  </strong><?= ($post['autor']['vivo'] ? "Sim":"Não")?></p>
+                <p><strong>Altura:  </strong><?= $post['autor']['altura']?></p>
 
-                <h4>Hobbies</h4>
+                <h4 class="tituloS">Hobbies</h4>
                 <ul>
                     <?php
                         $length = count($post['autor']['hobbies']);
