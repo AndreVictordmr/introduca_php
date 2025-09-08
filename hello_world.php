@@ -54,13 +54,15 @@
 
             echo "<p>Bruxo : $nome <br>";
             echo "Idade : $idade <br>";
-            echo "Especie : ".$especie . "<br>";
+            echo "Especie : $especie <br>";
             if($isAlive){
                 echo "Vivo : sim <br>";
             }else{
                 echo "Vivo : não <br>";
             }
             echo "Altura : $altura <br></p>";
+
+            
             
 
 
